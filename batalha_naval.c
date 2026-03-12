@@ -15,13 +15,8 @@ for(int i = 5; i <= 7; i++) {
         tabu [8] [i] = 3;    
 }
 
-for(int i = 9; i > 6; i--) {
-   for(int j = 0; j < 3; j++) {
-
-   tabu [j] [i] = 3; 
-
-
-   }
+for(int i = 0; i < 3; i++) {
+    tabu[i][i] = 3;
 }
 
 printf("     ");
